@@ -1,0 +1,23 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "mocha test demo",
+  "main": "start.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "demo"
+  ],
+  "author": "liufen",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.4.1",
+    "mz": "^2.7.0"
+  }
+}
