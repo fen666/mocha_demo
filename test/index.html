@@ -9,19 +9,7 @@
   <body>
     <div id="mocha"></div>
     <!-- 待测试函数文件 -->
-    <script>
-      // 求和
-      var sum = function (...rest) {
-          var sum =0;
-          for (let n of rest) {
-              sum += n
-          }
-          return sum
-      }
-    </script>
-    <!--<script src='./async.js'></script>
-    <script src='./start.js'></script>
-    <script src='./http.js'></script> -->
+    <script src='../min/outils.min.js'></script>
     <script src="./_lib/mocha.js"></script>
     <!-- 断言库 -->
     <script src='./_lib/power-assert.js'></script>
@@ -29,9 +17,9 @@
       mocha.setup('bdd');
     </script>
     <!-- 测试用例 -->
-    <script src="./test/hello-test.js"></script>
-   <!-- <script src="./test/async-test.js"></script> -->
-   <!--   <script src="./test/http-test.js"></script> -->
+    <script src="./hello-test.js"></script>
+    <!-- <script src="./async-test.js"></script>
+    <script src="./http-test.js"></script> -->
     <script>
       mocha.run();
     </script>
