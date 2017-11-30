@@ -1,6 +1,3 @@
-const assert = require('assert')
-const sum = require('../hello')
-
 describe('#hello.js', () => {
     describe('#sum()', () => {
         before(function () {
